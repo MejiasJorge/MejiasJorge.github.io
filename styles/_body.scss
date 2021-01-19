@@ -28,18 +28,16 @@
     
     .white_title {
         @include w_title;
-        padding: 1.5em 0 0 0.5em;
-        transform: $skew_content;
+        padding: 1.5em 0 0 0.5em;        
     }
 
-    .top_content {
-        transform: $skew;
+    .top_content {        
         display: flex;
         flex-direction: column;
-
         .bg {
             background: linear-gradient(#0000ff, #0000a3);
             height: 75em;
+            transform: $skew;
             position: relative;
             z-index: -1;
             .cap_iframe {
@@ -49,7 +47,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-between;
-                transform: $skew_content;
+                
 
                 iframe {
                     width: 18.6em;

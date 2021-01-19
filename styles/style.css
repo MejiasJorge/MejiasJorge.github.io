@@ -26,7 +26,6 @@ html body {
 .nav_menu .hb_menu {
   display: none;
   background-color: #0000ec;
-  position: relative;
 }
 
 .nav_menu .hb_menu li {
@@ -120,13 +119,9 @@ html body {
   font-weight: bold;
   color: #ffffff;
   padding: 1.5em 0 0 0.5em;
-  -webkit-transform: skew(0, 6deg);
-          transform: skew(0, 6deg);
 }
 
 .content .top_content {
-  -webkit-transform: skew(0, -6deg);
-          transform: skew(0, -6deg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,6 +135,8 @@ html body {
   background: -webkit-gradient(linear, left top, left bottom, from(#0000ff), to(#0000a3));
   background: linear-gradient(#0000ff, #0000a3);
   height: 75em;
+  -webkit-transform: skew(0, -6deg);
+          transform: skew(0, -6deg);
   position: relative;
   z-index: -1;
 }
@@ -160,8 +157,6 @@ html body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-transform: skew(0, 6deg);
-          transform: skew(0, 6deg);
 }
 
 .content .top_content .bg .cap_iframe iframe {
@@ -421,8 +416,6 @@ footer .footer_icon i {
 
 @media (min-width: 500px) {
   .f_content {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
     padding: 5em 0 0 12.5em;
   }
   .f_content h1 {
