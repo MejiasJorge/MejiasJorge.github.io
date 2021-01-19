@@ -1,5 +1,4 @@
-.f_content {
-    
+.f_content {    
     h1 {
         @include title;
         .line {
@@ -13,7 +12,6 @@
             display: none;
         }
     }
-
     .top_btn {
         @include button;
         padding: 0.8em 6em 0.8em 6em;
@@ -22,16 +20,13 @@
         display: none;
     }
 }
-
 .content {
-    margin-top: 3em;
-    
+    margin-top: 3em;    
     .white_title {
         @include w_title;
         padding: 1.5em 0 0 0.5em;
         transform: $skew_content;
     }
-
     .top_content {        
         display: flex;
         flex-direction: column;
@@ -49,7 +44,6 @@
                 align-items: center;
                 justify-content: space-between;
                 transform: $skew_content;
-
                 iframe {
                     width: 18.6em;
                     height: 17em;
@@ -139,7 +133,6 @@
         }
     }
 }
-
 .final_content {
     background: linear-gradient(#0000ff, #0000a3);    
     height: 20em;

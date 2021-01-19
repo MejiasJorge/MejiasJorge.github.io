@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 321px) {
     .f_content {        
         padding: 5em 0 0 12.5em;
         h1 {
@@ -31,7 +31,8 @@
     }
     .content {        
         .top_content {               
-            .bg {                
+            .bg {    
+                height: 62em;            
                 .white_title {
                     margin: 1em 0 0 4.1em;
                     font-size: 3em;
@@ -43,6 +44,7 @@
                     justify-content: center;
                     iframe {
                         width: 39vw;
+                        height: 20em;
                     }
                     .js {
                         padding-right: 7em;
@@ -61,38 +63,35 @@
                 align-items: center;
                 .phone {
                     width: 30vw;
+                    position: relative;
+                    bottom: 5em;
                     img {
                         width: 30vw;
                     }
                 }
                 .phone_text {
                     width: 36.5vw;
-                    h2 {
-                       
-                        
+                    position: relative;
+                    bottom: 10em;
+                    right: 5em;
+                    h2 {                      
                         width: 36.5vw;
                         font-size: 3em;
                     }
-                    p {
-                       
-                       
+                    p {                       
                         width: 32vw;
                         font-size: 1em;
                     }
                 }
             }
-            .guests {
-                         
-                bottom: 29em;
-                
-                transform: $skew_content;
-                
+            .guests {                        
+                bottom: 29em;               
                 h2 {
                     display: inline-block;
-                    width: 45vw;
-                  
-                    font-size: 3em;
-                    
+                    width: 45vw;                  
+                    font-size: 3em;   
+                    position: relative;
+                    left: 3em;                
                 }
                 .guest_img {
                     display: flex;
@@ -106,8 +105,7 @@
                 }
             }
             .topics {
-                display: flex;
-              
+                display: flex;              
                 div {
                     h2 {
                         font-size: 3em;
