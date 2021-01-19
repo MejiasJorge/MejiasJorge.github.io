@@ -28,7 +28,8 @@
     
     .white_title {
         @include w_title;
-        padding: 1.5em 0 0 0.5em;        
+        padding: 1.5em 0 0 0.5em;
+        transform: $skew_content;
     }
 
     .top_content {        
@@ -47,7 +48,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-between;
-                
+                transform: $skew_content;
 
                 iframe {
                     width: 18.6em;
@@ -59,27 +60,23 @@
             .phone {
                 width: 100vw;
                 padding-bottom: 2em;
-                img {
-                    transform: $skew_content;
+                img {                    
                     width: 100vw;
                 }
             }
             .phone_text {
                 width: 90vw;
                 padding-left: 1em;
-                h2 {
-                    transform: $skew_content;
+                h2 {                    
                     @include title;
                 }
-                p {
-                    transform: $skew_content;
+                p {                    
                     @include paragraph;
                     text-align: left;
                 }
             }
         }
-        .guests {
-            transform: $skew_content;
+        .guests {            
             padding-top: 3.3em;
             h2 {
                 @include title;
@@ -91,8 +88,7 @@
                 margin: 0;
             }
         }
-        .topics {
-            transform: $skew_content;
+        .topics {            
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -145,7 +141,6 @@
 }
 
 .final_content {
-    transform: $skew_content;
     background: linear-gradient(#0000ff, #0000a3);    
     height: 20em;
     margin-top: 2.6em;

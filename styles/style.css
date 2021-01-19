@@ -119,6 +119,8 @@ html body {
   font-weight: bold;
   color: #ffffff;
   padding: 1.5em 0 0 0.5em;
+  -webkit-transform: skew(0, 6deg);
+          transform: skew(0, 6deg);
 }
 
 .content .top_content {
@@ -157,6 +159,8 @@ html body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-transform: skew(0, 6deg);
+          transform: skew(0, 6deg);
 }
 
 .content .top_content .bg .cap_iframe iframe {
@@ -170,8 +174,6 @@ html body {
 }
 
 .content .top_content .telephone .phone img {
-  -webkit-transform: skew(0, 6deg);
-          transform: skew(0, 6deg);
   width: 100vw;
 }
 
@@ -181,8 +183,6 @@ html body {
 }
 
 .content .top_content .telephone .phone_text h2 {
-  -webkit-transform: skew(0, 6deg);
-          transform: skew(0, 6deg);
   font-family: 'IBM Plex Sans', sans-serif;
   margin: 16px;
   font-size: 2.25em;
@@ -191,8 +191,6 @@ html body {
 }
 
 .content .top_content .telephone .phone_text p {
-  -webkit-transform: skew(0, 6deg);
-          transform: skew(0, 6deg);
   font-family: 'IBM Plex Mono', monospace;
   text-align: justify;
   color: #060A24FF;
@@ -201,8 +199,6 @@ html body {
 }
 
 .content .top_content .guests {
-  -webkit-transform: skew(0, 6deg);
-          transform: skew(0, 6deg);
   padding-top: 3.3em;
 }
 
@@ -222,8 +218,6 @@ html body {
 }
 
 .content .top_content .topics {
-  -webkit-transform: skew(0, 6deg);
-          transform: skew(0, 6deg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,8 +309,6 @@ html body {
 }
 
 .final_content {
-  -webkit-transform: skew(0, 6deg);
-          transform: skew(0, 6deg);
   background: -webkit-gradient(linear, left top, left bottom, from(#0000ff), to(#0000a3));
   background: linear-gradient(#0000ff, #0000a3);
   height: 20em;
