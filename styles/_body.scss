@@ -1,0 +1,164 @@
+.f_content {
+    
+    h1 {
+        @include title;
+        .line {
+            text-decoration: line-through;
+        }
+    }
+    p {
+        @include paragraph;
+        margin: 0 1em 0 1em;
+        br {
+            display: none;
+        }
+    }
+
+    .top_btn {
+        @include button;
+        padding: 0.8em 6em 0.8em 6em;
+    }
+    .dt_text {
+        display: none;
+    }
+}
+
+.content {
+    margin-top: 3em;
+    
+    .white_title {
+        @include w_title;
+        padding: 1.5em 0 0 0.5em;
+        transform: $skew_content;
+    }
+
+    .top_content {
+        transform: $skew;
+        display: flex;
+        flex-direction: column;
+
+        .bg {
+            background: linear-gradient(#0000ff, #0000a3);
+            height: 75em;
+            position: relative;
+            z-index: -1;
+            .cap_iframe {
+                display: flex;
+                height: 60em;
+                margin: 1.3em 0 0 0;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                transform: $skew_content;
+
+                iframe {
+                    width: 18.6em;
+                    height: 17em;
+                }
+            }
+        }
+        .telephone {
+            .phone {
+                width: 100vw;
+                padding-bottom: 2em;
+                img {
+                    transform: $skew_content;
+                    width: 100vw;
+                }
+            }
+            .phone_text {
+                width: 90vw;
+                padding-left: 1em;
+                h2 {
+                    transform: $skew_content;
+                    @include title;
+                }
+                p {
+                    transform: $skew_content;
+                    @include paragraph;
+                    text-align: left;
+                }
+            }
+        }
+        .guests {
+            transform: $skew_content;
+            padding-top: 3.3em;
+            h2 {
+                @include title;
+            }
+            img {
+                display: block;
+                width: 100vw;
+                height: 15em;
+                margin: 0;
+            }
+        }
+        .topics {
+            transform: $skew_content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            div {
+                h2 {
+                    @include title;
+                }
+            }
+            .topic0 {
+                display: flex;
+                flex-direction: column;
+                .topic1 {
+                    padding: 2em 0 3em 0;
+                    img {
+                        padding: 0 0 0.5em 4em;
+                    }
+                    h3 {
+                        @include secondary_title;
+                    }
+                }
+                .topic2 {
+                    padding-bottom: 3em;
+                    h3 {
+                        @include secondary_title;
+                    }
+                    img {
+                        padding: 0 0 0.5em 4em;
+                    }
+                }
+                .topic3 {
+                    padding-bottom: 3em;
+                    h3 {
+                        @include secondary_title;
+                    }
+                    img {
+                        padding: 0 0 0.5em 4em;
+                    }
+                }
+                .topic4 {
+                    h3 {
+                        @include secondary_title;
+                    }
+                    img {
+                        padding: 0 0 0.5em 4em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.final_content {
+    transform: $skew_content;
+    background: linear-gradient(#0000ff, #0000a3);    
+    height: 20em;
+    margin-top: 2.6em;
+    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+    .white_title2 {
+        @include w_title;
+        text-align: center;
+        padding: 1.5em 0 0 0;
+    }
+    .last_btn {
+        @include button;
+        padding: 0.8em 0 0.8em 0;
+    }
+}

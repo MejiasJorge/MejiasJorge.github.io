@@ -1,0 +1,42 @@
+@media (min-width: 500px) {
+    .nav_menu{
+        label{
+            display: none;          
+        }
+        img{
+            margin: 1em 0 0 6em;
+        }
+        .hb_menu{
+            background-color: #ffffff;
+            //width: 45vw;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            li{
+                list-style: none;
+                padding: 1.5em 1em 0 1.5em;
+                .h_action{
+                    color: $lyrics_color;
+                    text-decoration: none;
+                    &:hover{
+                        color: $btn_color;
+                        text-decoration: line-through;
+                    }
+                    &:active{
+                        color: $btn_act ;
+                        text-decoration: line-through;
+                    }
+                    
+                }
+                
+            }
+                
+            }
+            
+    }
+    
+}
+
+
+  

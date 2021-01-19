@@ -1,0 +1,176 @@
+@media (min-width: 500px) {
+    .f_content {        
+        box-sizing: border-box;
+        padding: 5em 0 0 12.5em;
+        h1 {
+            font-size: 3.3em;
+            .dot {
+                color: blue;
+            }
+            br {
+                display: none;
+            }
+        }
+        .dt_text {
+            display: inline;
+        }
+        .mb_text {
+            display: none;
+        }
+        p {
+            font-size: 1em;
+            br {
+                display: inline;
+            }
+        }
+        .top_btn {
+            &:hover {
+                background: linear-gradient(to left, #0000feff, #00f0b8ff);
+                color: #ffffffff;
+            }
+        }
+    }
+    .content {        
+        .top_content {               
+            .bg {                
+                .white_title {
+                    margin: 1em 0 0 4.1em;
+                    font-size: 3em;
+                }
+                .cap_iframe {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    iframe {
+                        width: 39vw;
+                    }
+                    .js {
+                        padding-right: 7em;
+                    }
+                    .open_o {
+                        padding: 0 7em 15em 0;
+                    }
+                    .graphql {
+                        padding-bottom: 15em;
+                    }
+                }
+            }
+            .telephone {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .phone {
+                    width: 30vw;
+                    img {
+                        width: 30vw;
+                    }
+                }
+                .phone_text {
+                    width: 36.5vw;
+                    h2 {
+                       
+                        
+                        width: 36.5vw;
+                        font-size: 3em;
+                    }
+                    p {
+                       
+                       
+                        width: 32vw;
+                        font-size: 1em;
+                    }
+                }
+            }
+            .guests {
+                         
+                bottom: 29em;
+                
+                transform: $skew_content;
+                
+                h2 {
+                    display: inline-block;
+                    width: 45vw;
+                  
+                    font-size: 3em;
+                    
+                }
+                .guest_img {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    img {
+                        width: 33.3%;
+                        height: auto;
+                        line-height: 0;
+                    }
+                }
+            }
+            .topics {
+                display: flex;
+              
+                div {
+                    h2 {
+                        font-size: 3em;
+                        padding: 0 9em 1em 0;
+                    }
+                }
+                .topic0 {
+                    width: 70vw;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .topic1 {
+                        display: flex;
+                        flex-direction: column;
+                        img {
+                            padding: 0;
+                        }
+                    }
+                    .topic2 {
+                        display: flex;
+                        flex-direction: column;
+                        img {
+                            padding: 0;
+                        }
+                    }
+                    .topic3 {
+                        display: flex;
+                        flex-direction: column;
+                        img {
+                            padding: 0;
+                        }
+                    }
+                    .topic4 {
+                        display: flex;
+                        flex-direction: column;
+                        img {
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .final_content {            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 7em 0 0 0;
+            clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
+            h2 {
+                display: inline-block;
+                font-size: 3em;
+                width: 70vw;
+                br {
+                    display: none;
+                }
+            }
+            .last_btn {
+                &:hover {
+                    background: linear-gradient(to left, #0000feff, #00f0b8ff);
+                    color: #ffffffff;
+                }
+            }
+        }
+    }
+}

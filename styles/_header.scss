@@ -1,0 +1,46 @@
+.nav_menu {    
+    //position: relative;
+
+    img {
+        box-sizing: border-box;
+        margin: 0.625em 0 0.625em 1em;
+    }
+    .close{
+        display: none;
+    }
+    .hb_menu {
+        display: none;
+        background-color: #0000ec;
+        position: relative;        
+        li {
+            padding: 1em 0 1.5em 1em;
+
+            a {
+                font-family: "IBM Plex Mono", monospace;
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+    input:checked ~ .open{
+        display: none;
+    }
+    input:checked ~ .close{
+        display: block;
+    }
+
+    input:checked ~ .hb_menu {
+        display: inline-block;
+        width: 100vw;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    input {
+        display: none;
+    }
+    label {
+        position: absolute;
+        right: 1em;
+        top: 0.875em;
+    }
+}
