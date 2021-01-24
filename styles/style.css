@@ -372,7 +372,7 @@ footer .footer_icon i {
   padding: 1.1em 1em 2.5em 1em;
 }
 
-@media (min-width: 321px) {
+@media (min-width: 500px) {
   .nav_menu label {
     display: none;
   }
@@ -406,7 +406,7 @@ footer .footer_icon i {
   }
 }
 
-@media (min-width: 321px) {
+@media (min-width: 500px) {
   .f_content {
     padding: 5em 0 0 12.5em;
   }
@@ -625,7 +625,7 @@ footer .footer_icon i {
   }
 }
 
-@media (min-width: 321px) {
+@media (min-width: 500px) {
   footer {
     display: -webkit-box;
     display: -ms-flexbox;
